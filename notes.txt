@@ -1,0 +1,21 @@
+https://github.com/Trickery710/Heimdall
+//github heimdall , linux version of odin
+
+1   s9+ firmware
+https://www.sammobile.com/samsung/galaxy-s9-plus/firmware/SM-G965U1/VZW/download/G965U1UES9FVD1/1631463/
+
+
+2) Extract the firmware file you just downloaded. You should get 5 files:
+
+    AP (System & Recovery)
+    BL (Bootloader)
+    CP (Modem / Radio)
+    CSC_OXM (OXM CSC file, will wipe your phone)
+    HOME_CSC_OXM (OXM CSC file, will NOT wipe your phone)
+
+
+3   4) Reboot your phone in Download / Odin mode with the following button combo:
+POWER + VOLUME DOWN + BIXBY
+
+4   docker image
+https://hub.docker.com/r/linuxserver/heimdall
